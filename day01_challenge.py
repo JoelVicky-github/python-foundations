@@ -1,16 +1,18 @@
-## Block 2 — Independent discount-calculator challenge
+# Independent discount-calculator challenge
 
-price = 150
-quantity = 1
-discount_rate = 0
+print("\nDiscount Calculator\n")
 
-sub_total = price * quantity
-discount_amount = sub_total * discount_rate
-final_price = sub_total - discount_amount
+price = 500
+quantity = 4
+discount_rate = 0.10
 
-print("\n\nPrice:", price)
+subtotal = price * quantity
+discount_amount = subtotal * discount_rate
+final_price = subtotal - discount_amount
+
+print(f"Price: ₹{price:.2f}")
 print("Quantity:", quantity)
-print("Sub Total:", sub_total)
-print("Discount:", discount_amount)
+print(f"Subtotal: ₹{subtotal:.2f}")
+print(f"Discount rate: {discount_rate * 100:.0f}%")
+print(f"Discount amount: ₹{discount_amount:.2f}")
 print(f"Final price: ₹{final_price:.2f}")
-
