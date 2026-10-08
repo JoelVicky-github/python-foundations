@@ -28,9 +28,9 @@ print("Perimeter:", perimeter, "\n")
 print("Exercise 3: Temperature converter")
 
 celsius = 100
-farenheit = (celsius * 9) / 5 + 32
+fahrenheit = (celsius * 9) / 5 + 32
 
-print("Farenheit:", farenheit, "\n")
+print("Fahrenheit:", fahrenheit, "\n")
 
 ### Exercise 4: Bill calculator
 print("Exercise 4: Bill calculator\n")
